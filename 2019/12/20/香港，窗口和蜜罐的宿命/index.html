@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="NE0">
+  <meta name="author" content="NE0">
+  <meta name="keywords" content="NE0">
+  <title>香港，窗口和蜜罐的宿命 ~ NE0</title>
+
+  <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css"  >
+<link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css"  >
+<link rel="stylesheet" href="/lib/mdbootstrap/css/mdb.min.css"  >
+<link rel="stylesheet" href="/lib/github-markdown/github-markdown.min.css"  >
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1067060_qzomjdt8bmp.css">
+
+
+  <link rel="stylesheet" href="/lib/prettify/tomorrow-night-eighties.min.css"  >
+
+<link rel="stylesheet" href="/css/main.css"  >
+
+
+  <link rel="stylesheet" href="/lib/fancybox/jquery.fancybox.min.css"  >
+
+
+</head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>NE0</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+        
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/archives/">Archives</a>
+          </li>
+        
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/categories/">Categories</a>
+          </li>
+        
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/tags/">Tags</a>
+          </li>
+        
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">About</a>
+          </li>
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+</nav>
+
+    <div class="view intro-2" id="background"
+         style="background: url('https://images.pexels.com/photos/355241/pexels-photo-355241.jpeg?cs=srgb&dl=adventure-alpine-altitude-355241.jpg&fm=jpg')no-repeat center center;
+           background-size: cover;
+           background-attachment: fixed;">
+      <div class="full-bg-img">
+        <div class="mask rgba-black-light flex-center">
+          <div class="container text-center white-text fadeInUp">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+              <br>
+              
+                <p class="mt-3">
+                  <i class="fas fa-calendar-alt" aria-hidden="true"></i>&nbsp;
+                  星期五, 十二月 20日 2019, 11:47 晚上
+                </p>
+              
+
+              <p>
+                
+                  
+                  &nbsp;<i class="far fa-chart-bar"></i>
+                  <span class="post-count">
+                    4.1k 字
+                  </span>&nbsp;
+                
+
+                
+                  
+                  &nbsp;<i class="far fa-clock"></i>
+                  <span class="post-count">
+                      13 分钟
+                  </span>&nbsp;
+                
+
+                
+                  <!-- 不蒜子统计文章PV -->
+                  
+                  &nbsp;<i class="far fa-eye" aria-hidden="true"></i>&nbsp;
+                  <span id="busuanzi_container_page_pv">
+                    <span id="busuanzi_value_page_pv"></span> 次
+                  </span>&nbsp;
+                
+              </p>
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="py-5 z-depth-3" id="board">
+        <div class="post-content mx-auto" id="post">
+          <div class="markdown-body">
+            <p>很多朋友在后台点名要谈香港，姑且就说说我自己的看法吧。</p>
+<p>要解开香港的死结，有三个问题是需要回答的：</p>
+<p>第一个，是香港这个城市的定位，即它对中国大陆来说最终会扮演一个什么样的角色；</p>
+<p>第二个，是我国执政党的治国理政思路，尤其是286本人对于香港的看法；</p>
+<p>第三个，是在大的历史趋势中，我们究竟需要香港这个城市来达成我们对外和对内的一个什么目的；</p>
+<p>在谈这些问题之前，有一个可以明确的地方是，我们既然是可以谈香港问题，甚至大部分人在主流媒体上看到香港暴徒的各种行为，肯定是得到了许可。（也就是很多人担心的失控，是多余的）</p>
+<p>没有在宣传系统呆过的人对这些肯定无感，但任何在宣传系统呆过的人应该都知道，涉及到港澳台和国外的新闻，都属于高度敏感的话题，大到新闻报道的方向，小到相关特定名词的引用，都会被筛选过。</p>
+<p>也就是说，能被你看到，肯定是国家想让你看到。（那你就该想想，国家让你看到这些，是为什么？）</p>
+<p>大约是9年还是10年前的7月份，那时我还在香港对岸，2009，2010年左右，正是公知推墙党们最猖獗的那段时间，7月1号，香港那边又开始冲击西环，上街，纵火，烧旗，比今天的泼黑水有过之而无不及，但哪怕是一水之隔，大陆这边根本不会有任何大规模的消息，也就是说，得益于方滨兴校长的努力，其实只要这些信息，想隔绝是完全可以隔绝的。</p>
+<p>然而这次没有，这次，放开让大家看这群暴徒。</p>
+<p>所以，为什么？</p>
+<p>这就要从上面的第一个问题，香港自身的定位开始。</p>
+<p>一直以来，香港的定位就非常明确，这个地方就是一个试验区。</p>
+<p>试验什么？试验哪一种社会制度能够让中国人活得更好。</p>
+<p>但既然是实验，那就会有两种结果，一种好，一种坏，在结果出来之前，没有人知道是好还是坏。</p>
+<p>我们站在今天，去比较中国大陆和香港这些年的发展，自然能得出中国大陆制度的优越性，但放你去四十年前，你有能力看到当下的这些局面吗？别说四十年前，十年前的天涯之类的论坛，很多热贴还在讨论中国经济能否在2030年超越日本，说能的人几乎都被要嘲笑一番过于激进，然而十年后，若按购买力平价指数计算，我们的经济规模其实已经超越了太平洋对岸那个敌国。</p>
+<p>不管今天在中国大陆的那些有不满的人是如何不满，至少你们是站在全世界经济总体实力第二强的国家的国土上吐槽，而不是像床破口中那些shit hole国家的人一样在饥寒交迫中连抱怨的力气都没有。</p>
+<p>我个人觉得，会有香港这个“试验”，是我国执政者的典型政治智慧和执政手法的一个延续。</p>
+<p>按照我自己的理解，186给这个国家以及往后的执政团队留下的最深刻的痕迹就是四个字：实事求是。</p>
+<p>不管是何种社会制度，它最终是要拿来被人用的，一切问题的核心，在于人。</p>
+<p>也就是说，只要能让人民过上更好的生活，能让这个国家的国力更加强盛，其它的东西，都只是手段，而不是目的，能为我所用的，就是好的，不能达到我们目标的，吹得再天花乱坠，都是废话。</p>
+<p>经济领域的分配制度，不管是“资”，还是“社”，它们都最终要归于186在创立这个国家时立下的最终的目的：“为人民服务。”</p>
+<p>我们跟苏联走上了两个完全不同的结局，正是因为我们的执政团队有一个最终的目的，也可以说最初的初心，而不是僵化地陷于二元意识形态之争。</p>
+<p>你们有没有想过，当年的286在制定一国两制这个试验的时候，是不是必须要考虑一个问题，那就是：万一，我说的是万一，站在当时来看，50年后，如果香港各个方面都优越于中国大陆，那么到时候会怎么办？</p>
+<p>很幸运的是我们现在永远不会担心这个问题了。</p>
+<p>但这个我们永远不用再担心的问题正是香港这个地方存在的意义。</p>
+<p>在我们不够好的时候它可以给我们展示一个运作良好的社会是怎么样运作的，在我们比它好的时候，它能给我们提供一个社会样本的崩溃和衰落，是如何进行的。</p>
+<p>当年的深圳，说难听点的话，只是围绕这个试验而设置的一个缓冲区。</p>
+<p>香港一个点，深圳一个缓冲区，然后是广东一个更大的缓冲区，再后面才是广大的内陆腹地。</p>
+<p>不管是香港还是深圳出了问题，都可以在小范围内隔离开来，不至于对广大的内陆腹地造成更大范围的影响，我觉得这是一个负责任的执政者应该有的态度。</p>
+<p>在看待香港出现的所有问题的时候，要时刻记住：这是一个用于试验的地方。</p>
+<p>基于这个定位，你们的很多困惑是可以迎刃而解的。</p>
+<p>要解决香港现在的很多的问题，其实当年直接一国一制就好了，为什么不呢？因为：</p>
+<p>一个二线城市易得，而能拿一整座城市七百万人来做试验的机会难找。</p>
+<p>今天你们担心什么香港要乱，解放军再不动作就如何如何，其实是多余的，别忘了，香港跟深圳只隔了一条浅浅的河，别说是香港，哪怕是美国，如果它跟中国之间只隔了一条河，那它也得十条航母砍掉九条把钱拿来造坦克。</p>
+<p>如果把中国这个国家比作一个完整的人体，那么香港就好比是一个在逐步病变的部位，但是幸运的是，虽然这个部位属于人体，但它又不是严格意义上的连在一起，我们完全可以在一个安全的距离来观察这块病变的肌体。</p>
+<p>从中医的角度来看，身体时不时感个冒，发个烧，其实不是什么坏事，因为这是身体在提醒你，可能最近过度操劳了，休息不够了，抵抗力弱了，是一个让我们可以反思自身，给自身一个调养时间的机会。</p>
+<p>很多人往往平时透支得很厉害，但身体也一直没事，但一有事，那往往就是大病，这实际上就是在过度透支自己的身体的时候，大脑选择了主动屏蔽身体发出的需要休养的信号，强行透支，导致平时看起来没什么问题，里面的病灶已经在疯狂积累，一到临界点，撑不住就是大病一场。</p>
+<p>治理国家，其实是一样的道理。</p>
+<p>中国数千年历史，多少盛世，其实在一片歌舞升平下已经暗暗埋下了各种病变，如今我们有一个可以隔离开来的病变部位，实际上可以不断地刺激我们肌体里产生源源不断的免疫细胞，不好吗？</p>
+<p>如果从本文开头的第三个问题来看，香港在对内和对外，实际上有两个作用。</p>
+<p>对内，它在现在和未来，都是一个窗口，用于展示所谓的实行资本主义制度和西方三权分立及海洋法系法律制度制度的地方，会出现多么可怕的贫富分化和社会动荡，而这在外国势力的干涉下，又会演变成多么混乱的局面。</p>
+<p>这可以时刻抽打着那些希望在中国实行资本主义和西方政治制度的坏人，同时让普通的中国民众去认识到我们自身的制度的优越性。</p>
+<p>三个自信是怎么出来，不是说出来的，而是做出来的，比出来的。</p>
+<p>此外，官方渠道大张旗鼓地报到香港那些暴徒的恶劣行径，实际上是为另外一个方向的引导做铺垫：台湾。</p>
+<p>宣传机器全力开动的理由只有一个：争取民心，占领道德制高点。</p>
+<p>我一再提醒，台湾问题不会一拖再拖。</p>
+<p>在解决台湾问题之前，我们有必要提前让大多数国民凝结到一起，把那些分裂分子以及他们背后的英美势力丑恶的一面展示给大多数国民。</p>
+<p>大多数人看到的是香港，而我看到的满满都是两个字：台湾。</p>
+<p>一国两制的试验实际上已经结束了，未来的二十年不可能出现任何不一样的结果，所以，香港的动乱，实际上会为台湾的一国一制铺上正轨。</p>
+<p>香港的这些动乱分子闹得越凶，实际上越在舆论和宣传上为我们提供了更多的弹药，那些头脑发热的年轻人根本没有任何政治头脑，他们只是一群供人任意操纵的棋子，等待他们的，只有被人卖了还得替人数钱的下场。</p>
+<p>而对外，香港则是一个我们设置给外部敌意世界的一个“蜜罐”，也就是黑客攻防中常说的一个术语“Honey Pot”。</p>
+<p>对于计算机世界来说，蜜罐的定义是：“蜜罐是一个安全资源，它的价值在于被探测、攻击和损害。”</p>
+<p>蜜罐技术本质上是一种对攻击方进行欺骗的技术，通过布置一些作为诱饵的主机、网络服务或者信息，诱使攻击方对它们实施攻击，从而可以对攻击行为进行捕获和分析，了解攻击方所使用的工具与方法，推测攻击意图和动机，能够让防御方清晰地了解他们所面对的安全威胁，并通过技术和管理手段来增强实际系统的安全防护能力。</p>
+<p>蜜罐故意设置成容易让人攻击的目标，引诱黑客前来攻击。</p>
+<p>一旦攻击者入侵后，我们就可以知道他是如何得逞的，透过蜜罐还可以通过窃听黑客之间的联系，收集黑客所用的种种工具，并且掌握他们的连接节点。</p>
+<p>一台合格的蜜罐拥有：发现攻击、产生警告、强大的记录能力、欺骗、协助调查等功能。</p>
+<p>蜜罐机看似漏洞百出却尽在掌握之中，一个合格的蜜罐收集的入侵数据是十分有价值的。</p>
+<p>以上的计算机术语，如果我们把它通过词语的置换替换成政治性话语，那就是通过布置香港这么一个作为诱饵的城市，诱使欧美对我们怀有极大敌意的外部势力来对它实施攻击，在这个攻击过程中，我们来观察和对他们的攻击行为进行捕获和分析，了解欧美敌对势力所使用的工具与方法，他们是怎么煽动，又是怎么控制舆论的，他们是从什么渠道渗透，又是透过什么方式进行沟通的，他们下一步的攻击手法和时机会是什么……</p>
+<p>一个香港，实际上能够让我们清晰地了解我们未来可能面对的安全威胁，了解我们的敌人都有哪些手段，是怎么培养代理人，是怎么样组织那些动乱分子的，我们可以如何通过技术和管理手段来增强实际我们自身的安全防护能力，以及如何有效反击回去。</p>
+<p>我还是那句话，一个二线城市易得，而一座能够拿来当蜜罐的城市难找。</p>
+<p>你们真觉得没法收拾那几十个小鱼小虾？香港自50年代起就作为一个东亚情报角力中心，在回归之前我们就已经耕耘了几十年，即使在英国人统治时期我们的情报工作也从未落下风，更何况回归之后。</p>
+<p>不收拾他们，自然有没到时候的理由。</p>
+<p>如果我们真要连根拔除，其实前几天就有一个最好的机会。</p>
+<p>7月20日，香港警方在荃湾一座工厂大厦单位内发现包括至少1公斤TATP烈性炸药及10枚燃烧弹在内的爆炸品。</p>
+<p>这条新闻不热，甚至已经被其它新闻迅速掩盖过去了，但在我看来，这却是一条非常非常重要的线索。</p>
+<p>1公斤烈性炸药，是什么概念？</p>
+<p>一颗67式的装药大概是38克TNT，杀伤范围是10米。TATPT的威力大概是TNT的80%，也就是说50克的TATP大概就相当于一颗67式。</p>
+<p>一公斤，差不多是20颗进攻手榴弹的威力。</p>
+<p>一旦用于人口密集的区域，杀伤力绝对不可小看。</p>
+<p>但立马抓捕是不是最好的选择？在我看来未必是。</p>
+<p>如果是我，其实很可能不会选择在其没有制造完成的时候进行抓捕。</p>
+<p>在珍珠港事件发生之前，其实美国军方早已经破解了日本人的秘密，罗斯福早就知道珍珠港会遇袭，那为什么一定要让珍珠港遇袭？那是因为珍珠港那些人命，能换来他想要的结果。</p>
+<p>政治很多时候就是那么冷冰冰。</p>
+<p>比起TATP更重要的，其实是那些TATP，会被用到哪里。</p>
+<p>查获的地方在荃湾，而如果我是那些恐怖分子，必然会选择两种地方下手，一种是有重要政治性意义的目标，西环，另外一种是可以大规模杀伤特定人群，例如有大量大陆游客的地方。</p>
+<p>能查获TATP，说明我们能够掌握那些恐怖分子内部（懂我意思吧）的情况，既然我们能够掌握TATP的相关情报，那么我们就应该等他们在准备袭击之前再将其拦截，坐实他恐怖分子的罪名，而不是什么非法持有爆炸物。</p>
+<p>而没有像我说的这样，说明现在还没有到收网的时候。</p>
+<p>真要一网打尽，完全可以等爆了，军队立马接管。</p>
+<p>所以在此时选择大事化小，显然我们还有时间，给那些跳梁小丑继续出丑，然后再收紧绞索。</p>
+<p>跳梁小丑们，根本不知道，现在能够让他们跳，是因为前面已经给他们铺好了一条死路。</p>
+<p>而香港，这座我曾经工作和生活过一段不短时间的城市，虽然我对它还是有很多复杂的感情，也希望它能好，但它要迎来新生，恐怕要等到新一批能够正确认识和摆正香港跟大陆关系的年轻人走到前台，实现跟大陆真正的融合，才是它摆脱作为一个失败的试验品的一天了。</p>
+
+            <hr>
+          </div>
+          <br>
+          <div>
+            <p>
+            
+            
+            </p>
+            
+              <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="nofollow noopener noopener">CC BY-SA 3.0协议</a> 。转载请注明出处！</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-none d-lg-block col-lg-2 toc-container">
+      
+  <div id="toc">
+    <p class="h4"><i class="far fa-list-alt"></i>&nbsp;目录</p>
+    <div id="tocbot"></div>
+  </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- custom -->
+
+
+<!-- Comments -->
+<div class="col-lg-7 mx-auto nopadding-md">
+  <div class="container comments mx-auto" id="comments">
+    
+      <br><br>
+      
+      
+  <div id="vcomments" style="width: 90%; margin: 0 auto;"></div>
+  <script defer src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script defer src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+  <script>
+    var notify = 'false' === true;
+    var verify = 'false' === true;
+    var oldLoad = window.onload;
+    window.onload = function () {
+      new Valine({
+        el: '#vcomments',
+        notify: notify,
+        verify: verify,
+        app_id: "v1EI0UhwvwHcidNglobhvaLu-MdYXbMMI",
+        app_key: "lKHyRwsgR1JAO76JOxRFx64d",
+        placeholder: "说点什么",
+        avatar: "retro",
+        meta: ['nick', 'mail', 'link'],
+        pageSize: "10",
+      });
+      oldLoad && oldLoad();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank" rel="nofollow noopener noopener">comments
+      powered by Valine.</a></noscript>
+
+
+    
+  </div>
+</div>
+
+    
+  </main>
+
+  
+    <a class="z-depth-1" id="scroll-top-button" href="#" role="button">
+      <i class="fa fa-chevron-up scroll-top-arrow" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  <footer class="mt-5">
+  <div class="text-center py-3">
+    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><b>Hexo</b></a>
+    <i class="iconfont icon-love"></i>
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"> <b>Fluid</b></a>
+    <br>
+
+    
+  
+    <!-- 不蒜子统计PV -->
+    
+    &nbsp;<span id="busuanzi_container_site_pv">总访问量 
+          <span id="busuanzi_value_site_pv"></span> 次</span>&nbsp;
+  
+  
+    <!-- 不蒜子统计UV -->
+    
+    &nbsp;<span id="busuanzi_container_site_uv">总访客数 
+            <span id="busuanzi_value_site_uv"></span> 人</span>&nbsp;
+  
+  <br>
+
+
+
+    
+
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="/lib/jquery/jquery.min.js" ></script>
+<script src="/lib/popper/popper.min.js" ></script>
+<script src="/lib/bootstrap/js/bootstrap.min.js" ></script>
+<script src="/lib/mdbootstrap/js/mdb.min.js" ></script>
+<script src="/js/main.js" ></script>
+
+
+  <script src="/js/lazyload.js" ></script>
+
+
+
+  
+    <script src="/lib/tocbot/tocbot.min.js" ></script>
+  
+  <script src="/js/post.js" ></script>
+
+
+
+  <script src="/lib/smooth-scroll/smooth-scroll.min.js" ></script>
+
+
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+<!-- Plugins -->
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+  <script src="/lib/prettify/prettify.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      $('pre').addClass('prettyprint  linenums');
+      prettyPrint();
+    })
+  </script>
+
+
+
+  <script src="/lib/typed/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "香港，窗口和蜜罐的宿命&nbsp;",
+      ],
+      cursorChar: "_",
+      typeSpeed: 70,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+  <script src="/lib/anchor/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "false",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
+
+
+  <script src="/js/local-search.js" ></script>
+  <script>
+    var path = "/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      getSearchFile(path);
+      this.onclick = null
+    }
+  </script>
+
+
+
+  <script src="/lib/fancybox/jquery.fancybox.min.js" ></script>
+  <script>
+    $("#post img:not(.no-zoom img, img[no-zoom])").each(
+      function () {
+        var element = document.createElement("a");
+        $(element).attr("data-fancybox", "images");
+        $(element).attr("href", $(this).attr("src"));
+        $(this).wrap(element);
+      }
+    );
+  </script>
+
+
+
+
+
+
+
+</body>
+</html>
